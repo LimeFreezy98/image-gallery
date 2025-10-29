@@ -1,4 +1,5 @@
 import CategoryFilter from "../components/CategoryFilter";
+import ImageGrid from "../components/ImageGrid";
 import Navbar from "../components/navbar";
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
            <div className="max-w-6xl mx-auto px-4">
             <Navbar />
             <CategoryFilter />
+            <ImageGrid />
             
             </div> 
         </div>
